@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Amazing Events</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="../home.html">HOME</a> </li>
+            <li><a href="./upcoming.html">Próximos eventos</a></li>
+            <li><a href="./past.html">Eventos pasados</a></li>
+            <li><a href="./contact.html">Contacto</a></li>
+        </ul>        
+    </nav>
+    <main>
+        <h2 class="title">STATS</h2>
+        <table>
+            <h4>Events Stats</h4>
+            <thead>
+              <tr>
+                <th>Eventos con mayor porcentaje de asistencia</th>
+                <th>Eventos con menor porcentaje de asistencia</th>
+                <th>Eventos con mayor capacidad</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="highestAssistance"></td>
+                <td id="lowestAssistance"></td>
+                <td id="highestCapacity"></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table>
+            <h4>Upcoming Events Stats by Category</h4>
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Revenue</th>
+                <th>Estimated</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table>
+            <h4>Past Events Stats by Category</h4>
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Revenue</th>
+                <th>Assistance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td ></td>
+                <td ></td>
+                <td ></td>
+              </tr>
+            </tbody>
+          </table>
+
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../stats.js"></script>
+</body>
+</html>
